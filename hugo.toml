@@ -1,0 +1,102 @@
+baseURL = "https://crypto-trading-bots-2025.netlify.app"
+languageCode = "en-us"
+title = "Crypto Trading Bots 2025 - AI-Powered Trading Tools & Reviews"
+theme = "PaperMod"
+
+# Enable emoji support
+enableEmoji = true
+
+# Disable Git info for now
+enableGitInfo = false
+
+# Build settings
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Pagination (updated syntax)
+[pagination]
+  pagerSize = 10
+
+# Permalinks
+[permalinks]
+  posts = "/:year/:month/:title/"
+
+# Menu
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+# Params for SEO and site configuration
+[params]
+  description = "Discover the best crypto trading bots and AI-powered tools for 2025. Expert reviews, comparisons, and guides for automated cryptocurrency trading."
+  keywords = ["crypto trading bots", "AI trading", "cryptocurrency automation", "trading tools", "crypto bots 2025"]
+  author = "Crypto Trading Experts"
+  
+  # Social media
+  twitter = "@cryptobots2025"
+  
+  # Analytics (add your tracking IDs)
+  # googleAnalytics = "G-XXXXXXXXXX"
+  
+  # Theme specific params
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+
+  # Home page settings
+  [params.homeInfoParams]
+    Title = "Best Crypto Trading Bots 2025"
+    Content = "Discover AI-powered trading tools, expert reviews, and automated strategies for cryptocurrency trading. Find the perfect bot for your trading style."
+
+  # Social icons
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/cryptobots2025"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername/crypto-trading-bots-blog"
+
+# Markup settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    codeFences = true
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+# Sitemap
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml" 

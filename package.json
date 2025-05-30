@@ -1,0 +1,20 @@
+{
+  "name": "crypto-trading-bots-2025",
+  "version": "1.0.0",
+  "description": "AI-powered crypto trading bots affiliate blog",
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "serve": "hugo server --bind 0.0.0.0 --port 1313",
+    "generate": "python scripts/generate_posts.py",
+    "test-env": "python test_env.py"
+  },
+  "keywords": [
+    "crypto",
+    "trading",
+    "bots",
+    "affiliate",
+    "blog"
+  ],
+  "author": "Crypto Trading Experts",
+  "license": "MIT"
+} 
