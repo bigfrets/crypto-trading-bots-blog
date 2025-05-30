@@ -51,7 +51,7 @@ git push
 ## 📊 Important Links
 
 - **Local Site**: http://localhost:1313/
-- **GitHub Repo**: https://github.com/YOUR-USERNAME/crypto-trading-bots-blog
+- **GitHub Repo**: https://github.com/bigfrets/crypto-trading-bots-blog
 - **Netlify Site**: https://YOUR-SITE.netlify.app/
 - **Google Analytics**: https://analytics.google.com/
 - **Google Search Console**: https://search.google.com/search-console/
