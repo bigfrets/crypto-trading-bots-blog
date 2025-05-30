@@ -1,0 +1,10 @@
+{{- /* Google Site Verification */ -}}
+{{ if .Site.Params.googleSiteVerification }}
+<meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}" />
+{{ end }}
+
+{{- /* Google Analytics */ -}}
+{{ partial "adsense.html" . }}
+
+{{- /* Schema.org structured data */ -}}
+{{ partial "schema.html" . }} 

@@ -43,6 +43,9 @@ buildExpired = false
   keywords = ["crypto trading bots", "AI trading", "cryptocurrency automation", "trading tools", "crypto bots 2025"]
   author = "Crypto Trading Experts"
   
+  # Google Site Verification
+  googleSiteVerification = "jyW8kGFpVyyHEIC2ghBsNqAVUW1hp8nuHBTg"
+  
   # Social media
   twitter = "@cryptobots2025"
   
