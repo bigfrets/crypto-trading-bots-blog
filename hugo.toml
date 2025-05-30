@@ -44,13 +44,13 @@ buildExpired = false
   author = "Crypto Trading Experts"
   
   # Google Site Verification
-  googleSiteVerification = "jyW8kGFpVyyHEIC2ghBsNqAVUW1hp8nuHBTg"
+  googleSiteVerification = "fxIz3RY9a7zXPC9bEPRMWDXIqS3FAhaq7BEv_bsyceE"
   
   # Social media
   twitter = "@cryptobots2025"
   
   # Analytics (add your tracking IDs)
-  # googleAnalytics = "G-XXXXXXXXXX"
+  googleAnalytics = ""
   
   # Theme specific params
   ShowReadingTime = true
