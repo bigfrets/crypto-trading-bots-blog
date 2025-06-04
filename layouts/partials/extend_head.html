@@ -5,4 +5,49 @@
 {{ partial "adsense.html" . }}
 
 {{- /* Schema.org structured data */ -}}
-{{ partial "schema.html" . }} 
+{{ partial "schema.html" . }}
+
+{{- /* Notification Bar Styles */ -}}
+<style>
+.notification-bar {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: none;
+}
+.notification-bar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.notification-bar a:hover {
+    text-decoration: none;
+}
+body.show-notification {
+    padding-top: 50px;
+}
+</style>
+
+<script>
+// Simple notification bar - shows after 5 seconds on site
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+        if (!localStorage.getItem('hideNotification')) {
+            var bar = document.createElement('div');
+            bar.className = 'notification-bar';
+            bar.innerHTML = '🎁 <strong>Free:</strong> Get my Grid Bot Calculator + Settings Cheat Sheet <a href="/free-grid-bot-guide/">Click Here →</a> <span style="cursor: pointer; float: right; padding: 0 10px;" onclick="this.parentElement.remove(); localStorage.setItem(\'hideNotification\', \'true\');">✕</span>';
+            document.body.insertBefore(bar, document.body.firstChild);
+            document.body.classList.add('show-notification');
+            bar.style.display = 'block';
+        }
+    }, 5000);
+});
+</script> 
