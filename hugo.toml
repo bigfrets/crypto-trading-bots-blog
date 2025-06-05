@@ -50,7 +50,7 @@ buildExpired = false
   twitter = "@cryptobots2025"
   
   # Analytics (add your tracking IDs)
-  googleAnalytics = "G-XXXXXXXXXX"  # Replace with your GA4 Measurement ID
+  googleAnalytics = "G-W78YFBV6XL"  # Real GA4 Measurement ID
   
   # Enable custom event tracking for affiliate links
   trackAffiliateClicks = true
