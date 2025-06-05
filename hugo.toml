@@ -83,7 +83,7 @@ buildExpired = false
     url = "https://twitter.com/cryptobots2025"
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/yourusername/crypto-trading-bots-blog"
+    url = "https://github.com/bigfrets/crypto-trading-bots-blog"
 
 # Markup settings
 [markup]
